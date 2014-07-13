@@ -113,7 +113,7 @@ public class DownloadBase extends Activity {
         // Once the UI is created, get a reference to the instantiated
         // EditText and ImageView objects by providing their ids to
         // the Android framework.
-        mUrlEditText = (EditText) findViewById(R.id.url);
+        mUrlEditText = (EditText) findViewById(R.id.url); 
         mImageView = (ImageView) findViewById(R.id.imageView1);
         
         // Store whatever image is originally displayed in the
